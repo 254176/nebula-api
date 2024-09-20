@@ -10,6 +10,7 @@ import (
 
 func main() {
 	zerolog.SetGlobalLevel(zerolog.DebugLevel)
+	//this is a tested change
 	//this is a test change
 	// Establish the connection to the database
 	configs.ConnectDB()
